@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vn.pdscanner.sdr"
+4    android:versionCode="5"
+5    android:versionName="0.5.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- rtl_tcp localhost connection -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:5:22-64
+13
+14    <!-- GPS/GIS pole matching while the app is open -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:8:5-79
+15-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:9:5-81
+16-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:9:22-78
+17
+18    <application
+18-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:11:5-26:19
+19        android:allowBackup="true"
+19-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:12:9-35
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@drawable/ic_pd"
+22-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:15:9-39
+23        android:label="PD Scanner SDR + GIS"
+23-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:13:9-45
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:14:9-40
+26        <activity
+26-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:17:9-25:20
+27            android:name="vn.pdscanner.sdr.MainActivity"
+27-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:18:13-41
+28            android:exported="true"
+28-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:20:13-36
+29            android:screenOrientation="portrait" >
+29-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:19:13-49
+30            <intent-filter>
+30-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:21:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Users\NamNV.dpt\Downloads\PDScannerSDR_Android\app\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

@@ -1,0 +1,30 @@
+PD SCANNER SDR + GIS v0.3 - BUILD TRÊN WINDOWS
+
+1) Cài Android Studio.
+2) File > Open > chọn thư mục PDScannerSDR_Android.
+3) Chờ Gradle Sync.
+4) Nếu được hỏi Android SDK Platform 35 -> Install.
+5) Build > Build APK(s).
+6) File APK debug thường ở:
+   app\build\outputs\apk\debug\app-debug.apk
+
+TRƯỚC KHI CHẠY:
+- Cài SDR driver package marto.rtl_tcp_andro.
+- Cắm RTL-SDR qua hub USB-C có nguồn PD/power bank.
+- Cấp quyền vị trí cho app.
+- App đã nhúng 7.859 điểm cột GIS WGS84 từ dữ liệu người dùng cung cấp.
+
+CÁCH DÙNG NHANH:
+- Mở app -> chờ GPS -> kiểm tra cột gần nhất.
+- KẾT NỐI RTL-SDR.
+- LẤY NỀN nếu có thể.
+- REALTIME LIÊN TỤC.
+- Khi ở trong 40 m của cột, bấm LƯU KẾT QUẢ CHO CỘT NÀY.
+
+LƯU Ý:
+- Đây là thiết bị sàng lọc, không thay máy PD chuyên dụng.
+- Thử không LNA trước.
+
+V0.4: Giao diện dashboard mới, giữ nguyên GIS + GPS + RTL-SDR realtime.
+
+V0.5: giao diện bo góc kiểu Google / Material You.

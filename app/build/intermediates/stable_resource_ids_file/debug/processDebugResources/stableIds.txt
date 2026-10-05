@@ -1,0 +1,2 @@
+vn.pdscanner.sdr:style/AppTheme = 0x7f020000
+vn.pdscanner.sdr:drawable/ic_pd = 0x7f010000

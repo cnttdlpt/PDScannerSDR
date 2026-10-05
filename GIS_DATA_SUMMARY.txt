@@ -1,0 +1,24 @@
+GIS DATA SUMMARY - PD Scanner SDR + GIS v0.3
+
+Source DBF : npc_tt_cotdien_2.dbf
+Source PRJ : npc_tt_cotdien_2.prj
+Records    : 7859
+CRS        : GCS_WGS_1984 / WGS84
+Longitude  : xDaiDien
+Latitude   : yDaiDien
+
+Embedded asset:
+app/src/main/assets/poles.tsv
+
+Fields included:
+maDoiTuong
+soHieu
+capDienAp
+donViQuanL
+diaChi
+loCapDien
+xDaiDien
+yDaiDien
+tenDoiTuon
+ghiChu
+taiSan

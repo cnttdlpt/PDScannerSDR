@@ -1,0 +1,5 @@
+Nguồn: npc_tt_cotdien_2.dbf + npc_tt_cotdien_2.prj
+Số bản ghi đã đóng gói: 7859
+Hệ tọa độ: GCS_WGS_1984 (WGS84), đơn vị độ
+Trường dùng: maDoiTuong, soHieu, capDienAp, donViQuanL, diaChi, loCapDien, xDaiDien, yDaiDien, tenDoiTuon, ghiChu, taiSan
+App dùng xDaiDien=longitude, yDaiDien=latitude.

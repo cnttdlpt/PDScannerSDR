@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "vn.pdscanner.sdr.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\NamNV.dpt\\Downloads\\PDScannerSDR_Android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "565"
+                    }
+                }
+            ]
+        }
+    ]
+}
